@@ -1,0 +1,2 @@
+# WeallnetAutomaticTest
+TestAutomatic
