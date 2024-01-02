@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Annotations">
+    <test name="Run Class Annotations">
+        <classes>
+            <class name="com.example.automationtest.Admin.TestCase.Media">
+                <methods>
+                    <include name="Movie"></include>
+                </methods>
+            </class>
+            <class name="com.example.automationtest.Admin.TestCase.Media">
+                <methods>
+                    <include name="Video"></include>
+                </methods>
+            </class>
+            <class name="com.example.automationtest.Admin.TestCase.ChannelProfile">
+                <methods>
+                    <include name="ChannelProfile"></include>
+                </methods>
+            </class>
+            <class name="com.example.automationtest.Admin.TestCase.ChannelProfile">
+                <methods>
+                    <include name="AddActionMovie"></include>
+                </methods>
+            </class>
+            <class name="com.example.automationtest.Admin.TestCase.Collection">
+                <methods>
+                    <include name="addCollection"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
